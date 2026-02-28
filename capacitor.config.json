@@ -1,0 +1,11 @@
+{
+  "appId": "com.yourcompany.mobilepos",
+  "appName": "MobilePOS",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

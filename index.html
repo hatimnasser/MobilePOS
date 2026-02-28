@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mobile POS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1 id="page-title">Dashboard</h1>
+            <button id="menu-toggle" class="icon-btn">☰</button>
+        </header>
+
+        <main id="content">
+            <!-- Views will be injected here -->
+        </main>
+
+        <nav id="bottom-nav">
+            <button data-view="dashboard" class="active">🏠</button>
+            <button data-view="products">📦</button>
+            <button data-view="sales">🛒</button>
+            <button data-view="customers">👥</button>
+            <button data-view="reports">📊</button>
+            <button data-view="settings">⚙️</button>
+        </nav>
+    </div>
+
+    <!-- Modals (hidden by default) -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    <script type="module" src="js/db.js"></script>
+    <script type="module" src="js/utils.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

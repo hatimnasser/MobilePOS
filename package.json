@@ -1,0 +1,22 @@
+{
+  "name": "mobile-pos",
+  "version": "1.0.0",
+  "description": "Offline-first mobile POS for small business",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"No build step needed\""
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^5.2.0",
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/filesystem": "^5.1.4",
+    "@capacitor/share": "^5.0.6",
+    "@capacitor/splash-screen": "^5.0.6",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.31"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1"
+  }
+}
